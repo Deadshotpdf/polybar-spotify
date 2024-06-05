@@ -25,7 +25,9 @@ format-underline = #1db954
 ;control players (optional)
 click-left = playerctl --player=spotify play-pause 
 click-right = playerctl --player=spotify next 
-click-middle = playerctl --player=spotify previous 
+click-middle = playerctl --player=spotify previous
+scroll-up = playerctl --player=spotify volume 0.05+ 
+scroll-down = playerctl --player=spotify volume 0.05-
 ```
 
 #### Custom arguments
